@@ -1,8 +1,8 @@
 const { Octokit } = require("@octokit/action");
 
-createPrComment();
+fetchData();
 
-async function createPrComment() {
+async function fetchData() {
     const octokit = new Octokit();
 
     // See https://developer.github.com/v3/issues/comments/#create-a-comment
